@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {Home} from './components/Home';
+import {About} from './About';
+import {Experience} from './components/Experience';
+import {Education} from './components/Education';
+import {Skills} from './components/Skills';
+import {Projects} from './components/Projects';
+import {Courses} from './components/Courses';
+import {Contact} from './components/Contact';
+import {NoMatch} from './components/NoMatch';
+import {NavigationBar} from './components/NavigationBar';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Router>
+          <NavigationBar />
+            <Switch>
+              <Route exact path= "/" component={Home} />
+              <Route exact path= "/about" component={About} />
+              <Route path= "/experience" component={Experience} />
+              <Route path= "/education" component={Education} />
+              <Route path= "/skills" component={Skills} />
+              <Route path= "/projects" component={Projects} />
+              <Route path= "/courses" component={Courses} />
+              <Route path= "/contact" component={Contact} />
+              <Route component={NoMatch} />
+            </Switch>
+        </Router>
+      </React.Fragment>
+      );
+  }
 }
 
 export default App;
