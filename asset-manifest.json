@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.382cc86c.chunk.css",
+    "main.js": "/portfolio/static/js/main.3a5718f6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3a5718f6.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
+    "static/js/2.23222d61.chunk.js": "/portfolio/static/js/2.23222d61.chunk.js",
+    "static/js/2.23222d61.chunk.js.map": "/portfolio/static/js/2.23222d61.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.727876bfe728961d7d29cd47ec7dd5f2.js": "/portfolio/precache-manifest.727876bfe728961d7d29cd47ec7dd5f2.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.382cc86c.chunk.css.map": "/portfolio/static/css/main.382cc86c.chunk.css.map",
+    "static/js/2.23222d61.chunk.js.LICENSE.txt": "/portfolio/static/js/2.23222d61.chunk.js.LICENSE.txt",
+    "static/media/Dhvani_D_Patel_Resume.pdf": "/portfolio/static/media/Dhvani_D_Patel_Resume.9bb3e9b3.pdf",
+    "static/media/dp.jpg": "/portfolio/static/media/dp.b870e421.jpg",
+    "static/media/galaxyImage.jpg": "/portfolio/static/media/galaxyImage.bbf4beea.jpg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.71604d0d.svg",
+    "static/media/oops.jpg": "/portfolio/static/media/oops.686bd1da.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb1b3dac.js",
+    "static/js/2.23222d61.chunk.js",
+    "static/css/main.382cc86c.chunk.css",
+    "static/js/main.3a5718f6.chunk.js"
+  ]
+}
