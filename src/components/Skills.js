@@ -1,7 +1,7 @@
 import React from 'react';
 import {Jumbotron} from './Jumbotron';
 import { Layout } from './Layout';
-import { Card, Button, Container, Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Card, Button, Container, Row, Col} from 'react-bootstrap';
 
 const projectsStyle = {borderStyle: "groove", padding: "2%"}
 

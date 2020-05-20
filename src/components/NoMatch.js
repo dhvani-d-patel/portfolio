@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron as Jumbo, Container, Media,Image, Row, Col } from 'react-bootstrap';
+import { Jumbotron as Jumbo, Container} from 'react-bootstrap';
 import styled from 'styled-components';
 import oops from '../assets/oops.jpg';
 import { faBinoculars } from '@fortawesome/free-solid-svg-icons';
