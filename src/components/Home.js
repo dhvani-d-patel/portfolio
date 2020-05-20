@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron as Jumbo, Container, Media,Image, Row, Col } from 'react-bootstrap';
+import { Jumbotron as Jumbo, Container, Media,Image, Row, Col} from 'react-bootstrap';
 import styled from 'styled-components';
 import galaxyImage from '../assets/galaxyImage.jpg';
 import dp from '../assets/dp.jpg';
@@ -37,6 +37,8 @@ const Styles = styled.div`
     }
 `;
 
+const copyright = {position: "absolute", width: "100%", color: "#efefef", lineHeight: "20px", fontSize: "1em", textAlign: "center", bottom:0}
+
 export const Home = () => {
     return (
         <Styles>
@@ -60,6 +62,9 @@ export const Home = () => {
                     </Row>
                 </Container>
             </Jumbo>
+            <footer style={{position: "relative", width: "100%"}}>
+                <p style={copyright}>&copy; DHVANI PATEL</p>
+            </footer>
         </Styles>
     )
 }
