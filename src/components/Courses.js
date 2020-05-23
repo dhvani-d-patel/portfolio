@@ -21,7 +21,7 @@ export const Courses = () => {
                     <Container>
                         <Row>
                             <Col md={4}>
-                                <OverlayTrigger placement="left" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Data Structures'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Data Structures'})} >
                                     <Card style={{ width: '18em', height: "7.7em" }}>
                                         <Card.Body>
                                             <Card.Title>Computational Problem Solving</Card.Title>
@@ -54,7 +54,7 @@ export const Courses = () => {
                         <hr />
                         <Row>
                             <Col md={4}>
-                                <OverlayTrigger placement="right" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Graphics'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Graphics'})} >
                                     <Card style={{ width: '18em', height: "7.7em" }}>
                                         <Card.Body>
                                             <Card.Title>Foundations of Computer Graphics</Card.Title>
@@ -64,7 +64,7 @@ export const Courses = () => {
                                 </OverlayTrigger>
                             </Col>
                             <Col md={4}>
-                                <OverlayTrigger placement="left" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Intelligent Systems'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Intelligent Systems'})} >
                                     <Card style={{ width: '18em', height: "7.7em" }}>
                                         <Card.Body>
                                             <Card.Title>Foundations of Computer Vision</Card.Title>
@@ -97,7 +97,7 @@ export const Courses = () => {
                                 </OverlayTrigger>
                             </Col>
                             <Col md={4}>
-                                <OverlayTrigger placement="right" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Graphics'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Graphics'})} >
                                     <Card style={{ width: '18em', height: "7.7em"}}>
                                         <Card.Body>
                                             <Card.Title>Computational Geometry</Card.Title>
@@ -107,7 +107,7 @@ export const Courses = () => {
                                 </OverlayTrigger>
                             </Col>
                             <Col md={4}>
-                                <OverlayTrigger placement="left" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Data'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Data'})} >
                                     <Card style={{ width: '18em', height: "7.7em" }}>
                                         <Card.Body>
                                             <Card.Title>Introduction to Big Data</Card.Title>
@@ -140,7 +140,7 @@ export const Courses = () => {
                                 </OverlayTrigger>
                             </Col>
                             <Col md={4}>
-                                <OverlayTrigger placement="right" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Data'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Data'})} >
                                     <Card style={{ width: '18em', height: '7.7em'}}>
                                         <Card.Body>
                                             <Card.Title>Big Data Analytics</Card.Title>

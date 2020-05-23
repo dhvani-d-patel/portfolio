@@ -20,7 +20,7 @@ class App extends Component {
         <Router>
           <NavigationBar />
             <Switch>
-              <Route exact path= "/" component={Home} />
+              <Route exact path= "/" component={Home}></Route>/>
               <Route exact path= "/about" component={About} />
               <Route path= "/experience" component={Experience} />
               <Route path= "/education" component={Education} />
@@ -28,7 +28,7 @@ class App extends Component {
               <Route path= "/projects" component={Projects} />
               <Route path= "/courses" component={Courses} />
               <Route path= "/contact" component={Contact} />
-              <Route component={NoMatch} />
+              <Route path="*" component={NoMatch} />
             </Switch>
         </Router>
       </React.Fragment>

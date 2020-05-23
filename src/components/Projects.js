@@ -24,10 +24,10 @@ export const Projects = () => {
                     <Container>
                         <Row>
                             <Col md={4}>
-                                <OverlayTrigger placement="left" delay={{show: 250, hide: 400}} overlay={renderTooltip({text: 'Distributed Systems'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text: 'Distributed Systems'})} >
                                     <Card style={{ width: '21rem', height: "22.75em" }}>
                                         <Card.Body>
-                                            <Card.Title>Publisher-Subscriber System</Card.Title>
+                                            <Card.Title style={{textAlign: "justify"}}>Publisher-Subscriber System</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Tech: Java | Socket Programming | Docker | Git</Card.Subtitle>
                                             <Card.Text style={{textAlign: "justify"}}>
                                                 Developed a system similar to Youtube using publisher-subscriber model by implementing topic creation, 
@@ -46,7 +46,7 @@ export const Projects = () => {
                                 <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Computer Vision, Deep Learning'})} >
                                     <Card style={{ width: '21rem', height: "22.75em" }}>
                                         <Card.Body>
-                                            <Card.Title>Emotion and Gender Detection</Card.Title>
+                                            <Card.Title style={{textAlign: "justify"}}>Emotion and Gender Detection</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Tech: Python | OpenCV | Computer Vision | CNN | Keras | Tensorflow</Card.Subtitle>
                                             <Card.Text style={{textAlign: "justify"}}>
                                                 Developed an application to detect faces in live video and gather the details about the detected human 
@@ -61,10 +61,10 @@ export const Projects = () => {
                                 </OverlayTrigger>
                             </Col>
                             <Col md={4}>
-                                <OverlayTrigger placement="right" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Computer Vision, NLP, Deep Learning'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Computer Vision, NLP, Deep Learning'})} >
                                     <Card style={{ width: '21rem', height: "22.75em" }}>
                                         <Card.Body>
-                                            <Card.Title>Image Captioning using Deep Learning</Card.Title>
+                                            <Card.Title style={{textAlign: "justify"}}>Image Captioning using Deep Learning</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Tech: Python | OpenCV | NLP | CNN | RNN | Keras | Tensorflow</Card.Subtitle>
                                             <Card.Text style={{textAlign: "justify"}}>
                                             Developed an application which generates descriptions of the given image using encoder-decoder architecture
@@ -82,10 +82,10 @@ export const Projects = () => {
                         <hr />
                         <Row>
                             <Col md={4}>
-                                <OverlayTrigger placement="left" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Web Development'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Web Development'})} >
                                     <Card style={{ width: '21rem', height: "22.75em" }}>
                                         <Card.Body>
-                                            <Card.Title>ToDo List Application</Card.Title>
+                                            <Card.Title style={{textAlign: "justify"}}>ToDo List Application</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Tech: HTML | CSS | Bootstrap | React</Card.Subtitle>
                                             <Card.Text style={{textAlign: "justify"}}>
                                                 Designed and developed a web application that performs basic CRUD operations for tasks in a ToDo List.
@@ -99,14 +99,14 @@ export const Projects = () => {
                                 </OverlayTrigger>
                             </Col>
                             <Col md={4}>
-                                <OverlayTrigger placement="right" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Web Development'})} >
+                                <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Web Development'})} >
                                     <Card style={{ width: '21rem', height: "22.75em" }}>
                                         <Card.Body>
-                                            <Card.Title>MovieTime - A Cloned Movie App</Card.Title>
+                                            <Card.Title style={{textAlign: "justify"}}>MovieTime - A Cloned Movie App (in progress)</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Tech: HTML | CSS | MERN stack - MongoDB, Express, React, Node.js</Card.Subtitle>
                                             <Card.Text style={{textAlign: "justify"}}>
-                                                Designed and developed a movie application that creates a profile for users who can browse through different 
-                                                movies and add their favorite movies on a list. Implemented REST API's to facilitate all the database 
+                                                Designing and developing a movie application that creates a profile for users who can browse through different 
+                                                movies and add their favorite movies on a list. Implementing REST API's to facilitate all the database 
                                                 functionalities for the website.
                                             </Card.Text>
                                         </Card.Body>
@@ -121,7 +121,7 @@ export const Projects = () => {
                                 <OverlayTrigger placement="top" delay={{show: 250, hide: 400}} overlay={renderTooltip({text:'Computer Graphics'})} >
                                     <Card style={{ width: '21rem', height: "22.75em" }}>
                                         <Card.Body>
-                                            <Card.Title>3D Still Life Scene with Moving Objects</Card.Title>
+                                            <Card.Title style={{textAlign: "justify"}}>3D Still Life Scene with Moving Objects</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Tech: C++ | OpenGL | GLSL | Blender</Card.Subtitle>
                                             <Card.Text style={{textAlign: "justify"}}>
                                             Recreated a 3D scene from a photograph using 3D transformations, depth eects, shaders and textures 
